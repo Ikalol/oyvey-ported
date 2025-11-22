@@ -11,7 +11,7 @@ public class Watermark extends HudModule {
     public Setting<String> text = str("Text", OyVey.NAME);
 
     public Watermark() {
-        super("Watermark", "Display watermark", 100, 10);
+        super("(skidded by Ika)", "Display watermark", 100, 10);
     }
 
     @Override
