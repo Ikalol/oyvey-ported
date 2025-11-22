@@ -5,7 +5,7 @@ import net.minecraft.world.item.Items;
 
 public class FastPlace extends Module {
     public FastPlace() {
-        super("FastPlace", "Makes you throw exp faster", Category.PLAYER);
+        super("FastPlace", "Makes you place bloks 5x faster", Category.PLAYER);
     }
 
     @Override
