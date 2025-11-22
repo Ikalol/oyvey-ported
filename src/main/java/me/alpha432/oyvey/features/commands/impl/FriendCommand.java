@@ -14,7 +14,7 @@ public class FriendCommand
     public void execute(String[] commands) {
         if (commands.length == 1) {
             if (OyVey.friendManager.getFriends().isEmpty()) {
-                FriendCommand.sendMessage("Friend list empty D:.");
+                FriendCommand.sendMessage("Lol this guy has no friends:.");
             } else {
                 StringBuilder f = new StringBuilder("Friends: ");
                 for (String friend : OyVey.friendManager.getFriends()) {
